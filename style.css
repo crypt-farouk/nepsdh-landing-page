@@ -1,0 +1,82 @@
+
+
+h2{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+.row {display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.card1{
+    background-color: rgb(98, 98, 237);
+    width: 50px;
+    height: 30px;
+}
+.card2 {
+    background-color: aqua;
+    width: 50px;
+    height: 30px;
+}
+.card3 {
+    background-color: aquamarine;
+    width: 50px;
+    height: 30px;
+}
+.card4 {
+    background: rgb(98, 98, 237);
+    width: 40px;
+    height: 30px
+}
+.card5 {
+    background-color: aqua;
+    width: 40px;
+    height: 30px;
+}
+.card6 {
+    background-color: aquamarine;
+    width: 40px;
+    height: 30px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Pushes items to opposite ends */
+    align-items: center;            /* Vertically aligns them */
+    padding: 20px 40px;
+    background-color: #044a73;
+}
+
+.navbar h1 {
+    color: white;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 20px; /* Space between the links */
+}
+
+.navbar nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar nav a:hover {
+    color: #00bfff;
+}
+body{
+    background-color: #7d98ca;
+    font-family: Arial, sans-serif;
+}
